@@ -19,6 +19,9 @@ const path = require("path");
 let file = path.parse(__filename);
 
 console.log(file);
+/*export module*/
+const { test } = require("./exportFile/index");
+console.log(test);
 
 /* https module */
 const http = require("http");
